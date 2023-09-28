@@ -2,11 +2,11 @@ const app = require('./app/app')
 const AutoGitUpdate = require('auto-git-update');
 
 const config = {
-    repository: 'https://github.com/chegele/BackupPurger',
+    repository: 'https://github.com/utrosh/lyctoolssmart',
     fromReleases: true,
-    tempLocation: 'C:/Users/scheg/Desktop/tmp/',
-    ignoreFiles: ['util/config.js'],
-    executeOnComplete: 'C:/Users/scheg/Desktop/worksapce/AutoGitUpdate/startTest.bat',
+    tempLocation: 'C:/Users/Public/tmp/',
+    ignoreFiles: ['config/config.yml'],
+    executeOnComplete: 'lyc.exe',
     exitOnComplete: true,
     logConfig: {
         logGeneral:  false,
